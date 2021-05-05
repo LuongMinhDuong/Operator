@@ -1,16 +1,16 @@
 package basic.dev;
-import java.text.NumberFormat;
+
 /**
  * Lab08
  * @author Admin
  *
  */
+import java.text.NumberFormat;
 import java.util.Scanner;
 public class MainApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		NumberFormat formatter = NumberFormat.getNumberInstance();
 		formatter.setMaximumFractionDigits(2);
 		
